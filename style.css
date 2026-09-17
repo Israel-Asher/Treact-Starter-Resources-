@@ -303,7 +303,7 @@ MOBILE RESPONSIVENESS ↓
 }
 
 .feature {
-    width: calc(100% / 2);
+    width: calc(100% / 3);
     display: flex;
     flex-direction: column;
 }
