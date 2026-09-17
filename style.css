@@ -297,11 +297,13 @@ MOBILE RESPONSIVENESS ↓
   }
 }
 .features {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .feature {
+    width: calc(100% / 2);
     display: flex;
     flex-direction: column;
 }
@@ -366,4 +368,8 @@ MOBILE RESPONSIVENESS ↓
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.feature img {
+    width: 60px;
 }
