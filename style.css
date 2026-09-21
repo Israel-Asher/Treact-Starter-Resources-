@@ -185,6 +185,24 @@ STEPS ↓
   align-items: center;
 }
 
+.step {
+    margin-top: 32px;
+}
+.step__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    max-width: 320px;
+}
+.step__title {
+    font-weight: 600;
+    font-size: 20px;
+}
+.step__para {
+    font-size: 14px;
+    margin-top: 12px;
+}
+
 /* 
 
 VALUES ↓
@@ -321,6 +339,12 @@ MOBILE RESPONSIVENESS ↓
 
 .steps__illustration {
     width: 50%;
+    display: flex;
+    position: relative;
+}
+
+.steps__illustration img {
+  max-width: 100%;
 }
 
 .steps__info {
