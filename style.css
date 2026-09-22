@@ -249,8 +249,6 @@ header .row {
   margin-bottom: 16px;
 }
 
-
-
 /* 
 
 FEATURES ↓
@@ -384,6 +382,11 @@ MOBILE RESPONSIVENESS ↓
   .btn__menu {
     display: block;
   }
+
+  .nav__links {
+    display: none;
+  }
+
   header .row {
     flex-direction: column;
     align-items: center;
