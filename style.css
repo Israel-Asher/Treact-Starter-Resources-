@@ -65,6 +65,35 @@ nav {
   padding-bottom: 4px;
 }
 
+.nav__logo img {
+  width: 48px;
+}
+
+.nav__logo span {
+  margin-left: 12px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav__links a {
+  color: #243e63;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav__links .btn__signup {
+  background-color: #6415ff;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 999px;
+}
+
 .btn__menu {
   display: none;
   background: transparent;
@@ -145,6 +174,83 @@ header .row {
   justify-content: space-between;
 }
 
+.hero__info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__info h1 {
+  font-size: 56px;
+  line-height: 1.1;
+}
+
+.hero__info p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 24px 0 32px;
+}
+
+.hero__customers {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+}
+
+.hero__customers img {
+  width: 100%;
+}
+
+.hero__illustration {
+  width: 50%;
+}
+
+.hero__illustration img {
+  width: 100%;
+}
+
+.hero__form {
+  display: flex;
+  align-items: center;
+  max-width: 450px;
+  padding: 8px;
+  border: 1px solid #e2e8f0;
+  border-radius: 999px;
+}
+
+.hero__form input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0 24px;
+  font-size: 16px;
+  background: transparent;
+}
+
+.hero__form input::placeholder {
+  color: #a0aec0;
+}
+
+.hero__form button {
+  background-color: #6415ff;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 16px 32px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero__customers span {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #718096;
+  margin-bottom: 16px;
+}
+
+
+
 /* 
 
 FEATURES ↓
@@ -186,21 +292,21 @@ STEPS ↓
 }
 
 .step {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 .step__description {
-    display: flex;
-    flex-direction: column;
-    margin-left: 24px;
-    max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  max-width: 320px;
 }
 .step__title {
-    font-weight: 600;
-    font-size: 20px;
+  font-weight: 600;
+  font-size: 20px;
 }
 .step__para {
-    font-size: 14px;
-    margin-top: 12px;
+  font-size: 14px;
+  margin-top: 12px;
 }
 
 /* 
@@ -315,32 +421,32 @@ MOBILE RESPONSIVENESS ↓
   }
 }
 .features {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .feature {
-    width: calc(100% / 3);
-    display: flex;
-    flex-direction: column;
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
 }
 .quality__info {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .quality__illustration {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .steps__illustration {
-    width: 50%;
-    display: flex;
-    position: relative;
+  width: 50%;
+  display: flex;
+  position: relative;
 }
 
 .steps__illustration img {
@@ -348,52 +454,52 @@ MOBILE RESPONSIVENESS ↓
 }
 
 .steps__info {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .values__illustration {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .values__info {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .pricing {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .plan {
-    width: calc(100% / 3);
-    display: flex;
-    flex-direction: column;
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__row {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .footer__col {
-    display: flex;
-    flex-direction: column;
-    width: calc(100% / 5);
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 5);
+  align-items: center;
 }
 
 .footer__brand {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .feature img {
-    width: 60px;
+  width: 60px;
 }
