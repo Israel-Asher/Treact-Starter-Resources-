@@ -435,6 +435,11 @@ MOBILE RESPONSIVENESS ↓
   margin-bottom: 48px;
 }
 
+.features__header span {
+  color: #6415ff;
+  font-weight: 700;
+}
+
 .features__header h2 {
   font-size: 48px;
   line-height: 1.2;
