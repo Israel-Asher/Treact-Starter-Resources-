@@ -479,6 +479,33 @@ MOBILE RESPONSIVENESS ↓
   flex-direction: column;
 }
 
+.quality__info span {
+  color: #6415ff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.quality__info h2 {
+  font-size: 48px;
+  margin: 16px 0;
+}
+
+.quality__info p {
+  font-size: 18px;
+}
+
+.quality__info button {
+  background-color: #6415ff;
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 500px;
+  font-size: 14px;
+  margin-top: 32px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
 .quality__illustration {
   width: 50%;
   display: flex;
