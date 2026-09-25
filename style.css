@@ -33,6 +33,10 @@ body {
   color: #6415ff;
 }
 
+h2 {
+  font-weight: 900;
+}
+
 section {
   padding: 0 32px;
 }
@@ -479,7 +483,7 @@ MOBILE RESPONSIVENESS ↓
   flex-direction: column;
 }
 
-.quality__info span {
+.quality__info > span {
   color: #6415ff;
   font-size: 16px;
   font-weight: 700;
@@ -540,13 +544,98 @@ MOBILE RESPONSIVENESS ↓
   flex-direction: column;
 }
 
+.values__info > span {
+  color: #6415ff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.values__info h2 {
+  font-size: 48px;
+  margin: 16px 0 32px;
+}
+
+.values__info > p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7c8ba1;
+}
+
+.values__list {
+  display: flex;
+}
+
+.value {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-right: 32px;
+}
+
+.value__title {
+  display: flex;
+  align-items: center;
+}
+
+.value__img--wrapper {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.value__img--wrapper svg {
+  width: 20px;
+  height: 20px;
+}
+
+.value:nth-child(1) .value__img--wrapper {
+  background-color: #9ae6b4;
+}
+
+.value:nth-child(2) .value__img--wrapper {
+  background-color: #feb2b2;
+}
+
+.value__title h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 12px;
+}
+
+.value p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #718096;
+  margin-top: 16px;
+}
+
+.values__info button {
+  align-self: flex-start;
+  background-color: #6415ff;
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 500px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 48px;
+  cursor: pointer;
+}
 .pricing {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
 
-.pricing__header span {
+.values__illustration img {
+  max-width: 100%;
+}
+
+.pricing__header > span {
   color: #6415ff;
   font-size: 16px;
   font-weight: 700;
@@ -605,6 +694,12 @@ MOBILE RESPONSIVENESS ↓
 .plan:nth-child(2) span:last-of-type,
 .plan:nth-child(2) li {
   color: rgba(255, 255, 255, 0.85);
+}
+
+.plan:nth-child(2) span:first-of-type,
+.plan:nth-child(2) h3,
+.plan:nth-child(2) p {
+  color: #fff;
 }
 
 .plan span:first-of-type {
