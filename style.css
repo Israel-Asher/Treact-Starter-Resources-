@@ -543,12 +543,116 @@ MOBILE RESPONSIVENESS ↓
 .pricing {
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
+}
+
+.pricing__header span {
+  color: #6415ff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.pricing__header h2 {
+  font-size: 48px;
+  margin: 16px 0;
+}
+
+.pricing__header p {
+  font-size: 18px;
 }
 
 .plan {
-  width: calc(100% / 3);
+  width: calc((100% - 48px) / 3);
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.1),
+    0 1px 2px rgba(0, 0, 0, 0.06);
+  padding: 32px;
   display: flex;
   flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.plan::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+}
+
+.plan:nth-child(1)::before {
+  background: linear-gradient(115deg, #38b2ac 0%, #81e6d9 100%);
+}
+
+.plan:nth-child(2)::before {
+  background: linear-gradient(135deg, #4c51bf 0%, #667eea 100%);
+}
+
+.plan:nth-child(3)::before {
+  background: linear-gradient(115deg, #f56565 0%, #feb2b2 100%);
+}
+
+.plan:nth-child(2) {
+  background: linear-gradient(135deg, #4c51bf 0%, #667eea 100%);
+  color: #fff;
+}
+
+.plan:nth-child(2) span:last-of-type,
+.plan:nth-child(2) li {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.plan span:first-of-type {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.plan h3 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 4px 0;
+}
+
+.plan span:last-of-type {
+  font-size: 16px;
+  font-weight: 700;
+  color: #a0aec0;
+}
+
+.plan p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.plan ul {
+  list-style: none;
+  padding: 0;
+}
+
+.plan li {
+  font-size: 16px;
+  font-weight: 500;
+  color: #718096;
+  margin-top: 20px;
+}
+
+.plan button {
+  background-color: #6415ff;
+  color: #fff;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 9999px;
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 192px;
+  margin-top: 32px;
+  cursor: pointer;
 }
 
 .footer__row {
