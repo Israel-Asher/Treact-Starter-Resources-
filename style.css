@@ -343,6 +343,8 @@ TESTIMONIALS ↓
 
 #testimonials .row {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* 
@@ -799,4 +801,121 @@ MOBILE RESPONSIVENESS ↓
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.testimonials__img {
+  width: 50%;
+}
+
+.testimonials__description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 64px;
+}
+
+.testimonials__description > span {
+  color: #6415ff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.testimonials__description h2 {
+  font-size: 48px;
+  line-height: 60px;
+  margin: 16px 0 24px;
+}
+
+.testimonials__description > p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7c8ba1;
+  line-height: 1.625;
+}
+
+.testimonial {
+  margin-top: 40px;
+}
+
+.testimonial__rating {
+  margin-top: 4px;
+  color: #f6ad55;
+}
+
+.testimonial__rating i {
+  color: #f6ad55;
+}
+
+.testimonial h3 {
+  font-size: 20px;
+  line-height: 32.5px;
+  color: #4a5568;
+  margin-top: 16px;
+}
+
+.testimonial > p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #4a5568;
+  margin: 16px 0 32px;
+}
+
+.testimonial__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial__profile {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial__details {
+  margin-left: 24px;
+}
+
+.testimonial__details h4 {
+  font-size: 20px;
+  line-height: 32.5px;
+  color: #4a5568;
+}
+
+.testimonial__details span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7c8ba1;
+}
+
+.testimonial__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial__button {
+  width: 48px;
+  height: 48px;
+  margin: 0 12px;
+  border: none;
+  border-radius: 50%;
+  background-color: #edf2f7;
+  color: #6415ff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.divider {
+  width: 1px;
+  height: 20px;
+  margin: 12px 0;
+  background-color: #edf2f7;
 }
