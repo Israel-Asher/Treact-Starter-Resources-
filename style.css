@@ -356,6 +356,12 @@ START / CALL TO ACTION ↓
 #start .row {
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 160px;
+  background-color: #6415ff;
+  border-radius: 8px;
 }
 
 /* 
@@ -918,4 +924,43 @@ MOBILE RESPONSIVENESS ↓
   height: 20px;
   margin: 12px 0;
   background-color: #edf2f7;
+}
+
+#start h2 {
+  width: 50%;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #f7fafc;
+}
+
+#start h2 .purple {
+  color: #f7fafc;
+}
+
+.start__buttons {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.start__buttons button {
+  padding: 20px 40px;
+  border-radius: 500px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #f7fafc;
+  border: none;
+  cursor: pointer;
+}
+
+.start__buttons button:first-child {
+  background-color: #f56565;
+  margin-right: 32px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.start__buttons button:last-child {
+  background-color: #6415ff;
+  border: 1px solid #a0aec0;
 }
