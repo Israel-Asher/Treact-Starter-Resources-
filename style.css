@@ -964,3 +964,24 @@ MOBILE RESPONSIVENESS ↓
   background-color: #6415ff;
   border: 1px solid #a0aec0;
 }
+
+.footer__col span {
+  color: #f7fafc;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.footer__col a {
+  color: #f7fafc;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 12px;
+}
+
+.footer__brand h3 {
+  color: #f7fafc;
+}
+
+.footer__brand p {
+  color: #cbd5e0;
+}
