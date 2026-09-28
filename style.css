@@ -850,7 +850,8 @@ MOBILE RESPONSIVENESS ↓
   color: #f6ad55;
 }
 
-.testimonial__rating i {
+.testimonial__rating svg {
+  margin: 4px;
   color: #f6ad55;
 }
 
