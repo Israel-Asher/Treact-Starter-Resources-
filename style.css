@@ -999,3 +999,37 @@ MOBILE RESPONSIVENESS ↓
 .footer__social-link {
   color: #f7fafc;
 }
+
+@media (max-width: 768px) {
+  .hero__info,
+  .hero__illustration,
+  .quality__info,
+  .quality__illustration,
+  .steps__info,
+  .steps__illustration,
+  .values__info,
+  .values__illustration,
+  .testimonials__description,
+  .testimonials__img,
+  .feature,
+  .plan,
+  #start h2,
+  .start__buttons,
+  .footer__col {
+    width: 100%;
+  }
+
+  #start .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .start__buttons {
+    justify-content: center;
+    margin-top: 32px;
+  }
+
+  .footer__col {
+    margin-bottom: 32px;
+  }
+}
